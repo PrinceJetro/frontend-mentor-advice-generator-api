@@ -1,0 +1,36 @@
+body{
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.main{
+    background-color: hsl(217, 19%, 24%);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+}
+.main p{
+    color: greenyellow;
+}
+.main h4{
+    color: aliceblue;
+}
+
+.disc{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.disc_span{
+    height: 50px;
+    width: 50px;
+    background-color: greenyellow;
+    border-radius: 50%;   
+    margin-top: 15%;
+}
